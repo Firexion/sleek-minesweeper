@@ -23,3 +23,5 @@ var Game = {
     return false;
   }
 };
+
+module.exports = Game;

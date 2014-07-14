@@ -64,3 +64,5 @@ var Minefield = {
     }
   }
 };
+
+module.exports = Minefield;

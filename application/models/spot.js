@@ -86,3 +86,5 @@ var Spot = {
     }
   }
 };
+
+module.exports = Spot;
