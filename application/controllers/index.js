@@ -8,11 +8,14 @@
  * @Date 23-10-2013
  */
 
+var Game = require('../models/game.js');
+
 //index function
 var indexController = {
     index:function(req, res){
         var data = {
-            title: "Minesweeper"
+            title: "Minesweeper",
+            game: Game.create()
         };
         //load index.html from home directory
         system.loadView(res,'home/index', data);

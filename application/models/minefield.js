@@ -1,3 +1,6 @@
+var Spot = require('./spot.js');
+var constants = require('../config/defines.js');
+
 var Minefield = {
   rows: [],
   initialize: function() {

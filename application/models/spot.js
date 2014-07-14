@@ -1,3 +1,5 @@
+var constants = require('../config/defines.js');
+
 var Spot = {
   neighbors: [],
   initialize: function(x, y) {

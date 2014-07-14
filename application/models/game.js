@@ -1,3 +1,7 @@
+var Minefield = require('./minefield.js');
+var Spot = require('./spot.js');
+var constants = require('../config/defines.js');
+
 var Game = {
   initialize: function() {
     this.minefield = Minefield.create();

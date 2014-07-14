@@ -9,8 +9,9 @@
 
 global.DEFINES = {
     HELLO: 'Hello',
-    WIDTH: 9,
-	MINES: 10
 };
+
+global.WIDTH = 9;
+global.MINES = 10;
 
 

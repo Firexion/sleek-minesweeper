@@ -2,11 +2,9 @@
     <h2>Welcome to {{title}}</h2>
     <div class="sub_cnt_col">
         <div class='minefield'>
-            <div class='row'>
-                <button class='spot'>
-                    <img>
-                </button>
-            </div>
+        {{#each rows}}
+            {{> row}}
+        {{/each}}
         </div>
     </div>
     <div class="footer">
